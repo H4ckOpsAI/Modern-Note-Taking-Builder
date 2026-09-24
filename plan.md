@@ -1,0 +1,4 @@
+## Modern Notes App Plan
+- [x] Set up a persistent database for notes, checklist items, and labels, while establishing a warm paper-inspired visual direction with ink-black typography, cream surfaces, lively note colors, rounded tactile controls, and a responsive masonry-style note wall as the centerpiece.
+- [x] Build the main notes workspace with search, compact note creation, pinned and recent note sections, color and label filters, grid/list views, and working pin, archive, delete, and restore actions.
+- [x] Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states.

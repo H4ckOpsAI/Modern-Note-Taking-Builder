@@ -1,0 +1,227 @@
+{
+  "version": 4,
+  "app_title": "Modern Notes App Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-3534c1c3",
+      "name": "Notes Workspace",
+      "route": "/",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the main notes workspace with search, compact note creation, pinned and recent note sections, color and label filters, grid/list views, and working pin, archive, delete, and restore actions."
+      },
+      "blocks": [
+        {
+          "id": "notes-topbar",
+          "type": "nav",
+          "label": "Top app bar",
+          "hint": "Brand mark, global search, grid/list toggle, and settings-style utility controls",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the main notes workspace with search, compact note creation, pinned and recent note sections, color and label filters, grid/list views, and working pin, archive, delete, and restore actions."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "notes-sidebar",
+          "type": "sidebar",
+          "label": "Notes navigation",
+          "hint": "Notes, Pinned, Archive, Trash, plus label filters",
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 9,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the main notes workspace with search, compact note creation, pinned and recent note sections, color and label filters, grid/list views, and working pin, archive, delete, and restore actions."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "quick-composer",
+          "type": "form",
+          "label": "Quick note composer",
+          "hint": "Expandable title and note capture with checklist, color, and label actions",
+          "x": 3,
+          "y": 1,
+          "w": 9,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the main notes workspace with search, compact note creation, pinned and recent note sections, color and label filters, grid/list views, and working pin, archive, delete, and restore actions."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "pinned-grid",
+          "type": "text",
+          "label": "Pinned notes",
+          "hint": "Responsive colorful note cards with pin, label, archive, and overflow actions",
+          "x": 3,
+          "y": 3,
+          "w": 9,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the main notes workspace with search, compact note creation, pinned and recent note sections, color and label filters, grid/list views, and working pin, archive, delete, and restore actions."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "recent-grid",
+          "type": "text",
+          "label": "Recent notes",
+          "hint": "Masonry-style wall of rich text and checklist note cards",
+          "x": 3,
+          "y": 6,
+          "w": 9,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the main notes workspace with search, compact note creation, pinned and recent note sections, color and label filters, grid/list views, and working pin, archive, delete, and restore actions."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-93fb50a0",
+      "name": "Rich Note Editor",
+      "route": "/note/[note_id]",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+      },
+      "blocks": [
+        {
+          "id": "editor-toolbar",
+          "type": "header",
+          "label": "Editor toolbar",
+          "hint": "Back, save status, pin, archive, color, and overflow actions",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "note-editor",
+          "type": "form",
+          "label": "Note editor",
+          "hint": "Large title, formatted body, checklist mode, and label controls on a paper-like canvas",
+          "x": 0,
+          "y": 1,
+          "w": 9,
+          "h": 8,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "note-details",
+          "type": "sidebar",
+          "label": "Note details",
+          "hint": "Color palette, labels, created and updated timestamps, and note actions",
+          "x": 9,
+          "y": 1,
+          "w": 3,
+          "h": 8,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-b10240fb",
+      "name": "Archive and Trash",
+      "route": "/archive",
+      "item_ref": {
+        "index": 2,
+        "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+      },
+      "blocks": [
+        {
+          "id": "archive-topbar",
+          "type": "nav",
+          "label": "Top app bar",
+          "hint": "Shared brand, search, and view controls",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "archive-sidebar",
+          "type": "sidebar",
+          "label": "Notes navigation",
+          "hint": "Shared Notes, Pinned, Archive, Trash, and labels navigation",
+          "x": 0,
+          "y": 1,
+          "w": 3,
+          "h": 8,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "archive-header",
+          "type": "header",
+          "label": "Archive header",
+          "hint": "Archive title, context, and active filters",
+          "x": 3,
+          "y": 1,
+          "w": 9,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "archive-grid",
+          "type": "text",
+          "label": "Archived notes",
+          "hint": "Responsive note cards with restore and delete actions plus empty state",
+          "x": 3,
+          "y": 2,
+          "w": 9,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build the rich note editor and archive experience with formatted text, interactive checklists, note colors, labels, autosave-friendly editing controls, responsive layouts, and polished empty states."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
